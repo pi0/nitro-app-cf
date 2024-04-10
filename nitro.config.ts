@@ -9,8 +9,7 @@ export default defineNitroConfig({
   cloudflare: {
     wrangler: {
       compatibility_date: "2024-04-10",
-      node_compat: true,
-      compatibility_flags: ["node_compat"],
+      compatibility_flags: ["node_compat", "nodejs_als"],
     },
   },
 });
