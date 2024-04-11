@@ -8,6 +8,7 @@ export default defineNitroConfig({
   },
   cloudflare: {
     wrangler: {
+      name: "",
       pages_build_output_dir: "dist",
       compatibility_date: "2024-04-10",
       compatibility_flags: ["nodejs_compat"],
