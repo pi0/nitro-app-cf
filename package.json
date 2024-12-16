@@ -7,6 +7,8 @@
     "preview": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "nitropack": "npm:nitropack-nightly@2.10.0-28546505.8e88dd41"
-  }
+    "nitropack": "^2.10.4",
+    "wrangler": "^3.96.0"
+  },
+  "packageManager": "pnpm@9.15.0"
 }
